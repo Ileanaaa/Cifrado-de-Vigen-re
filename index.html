@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cifrado Vigenere</title>
+        <link href="estiloss.css" rel="stylesheet" type="text/css">
+        <script src="vigenere.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+<body>
+
+<h1>Cifrado Vigenere</h1>
+<form class="formVigenere">
+<span class="h1v">Mensaje a encriptar o desencriptar:</span>
+<textarea class="textareaV" id="InputText" rows="5"></textarea> 
+<span class="h1v">Inserta un pin:</span> 
+<br>
+<input class="TextV" id="PassWord" type="text" /> 
+<br><br>
+<input class="ButtonV" id="Encrypt" onclick="RebuildString(Encriptar(true))" type="button" value="Encriptar" /> 
+<br><br>
+<input class="ButtonV" id="UnEncrypt" onclick="RebuildString(Encriptar(false))" type="button" value="Desencriptar" /> 
+<br><br>
+<span class="h1v">Resultado esperado:</span>
+<textarea class="textareaV" id="Result" rows="5"></textarea></form>
+</body> 
+</html>

@@ -1,0 +1,51 @@
+  body {
+
+
+    font-size: 1rem;
+    color: black; 
+    font-family: sans-serif;
+  }
+h1{
+    color: rgb(2, 2, 2);
+}
+
+.ButtonV
+{
+    width: 1000px;
+    background-color: #291e1e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+}.h1v
+{
+    font-size: 13px;
+}
+.formVigenere{
+    font: sans-serif;
+    max-width: 100px;
+    margin: 50px;
+    
+    background: #ffffff;
+}
+.textareaV
+{
+    width: 1000px;
+    height: 100px;
+
+    padding: 2px 5px;
+   
+    border: 2px solid rgb(75, 68, 53);
+    border-radius: 0px;
+    resize: none;
+}
+.TextV
+{
+    width: 1000px;
+    padding: 2px 5px;
+    border: 2px solid rgb(36, 17, 17);
+    border-radius: 2px;
+}
